@@ -6,6 +6,8 @@ public class jogodavelha {
     
     public static boolean verJogada(String simbolo, int x, int y){
        boolean vencedor = false;
+       
+       
        if(tabuleiro[0][0] == (simbolo) && tabuleiro[1][0] == (simbolo) && tabuleiro [2][0] == (simbolo)){
            
            return true;
@@ -85,7 +87,7 @@ public class jogodavelha {
 
             if (jogador == 1) {
                
-                    if (tabuleiro[x][y]!=("X") && tabuleiro[x][y]!=("Y")) {
+                    if (tabuleiro[x][y]!=("O") && tabuleiro[x][y]!=("Y")) {
                         tabuleiro[x][y] = "X";
                         jogada = true;
                         jogadas++;

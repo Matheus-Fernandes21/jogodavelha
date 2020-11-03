@@ -92,7 +92,7 @@ package jogodavelha;
                                    jogadas++;
                                    vencedor = verJogada("X", x, y);
                                } else {
-                                   System.out.println("\n Posição ja preenchida. \n");
+                                   System.out.println("\n PosiÃ§Ã£o ja preenchida. \n");
                                    jogada = false;
                                }
                            } catch (Exception e) {
@@ -106,7 +106,7 @@ package jogodavelha;
                                    jogadas++;
                                    vencedor = verJogada("O", x, y);
                                } else {
-                                   System.out.println("\nPosição ja preenchida.");
+                                   System.out.println("\nPosiÃ§Ã£o ja preenchida.");
                                    jogada = false;
                                }
                                
@@ -142,4 +142,4 @@ package jogodavelha;
                    
                }
 
-           }
+           
